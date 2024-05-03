@@ -56,4 +56,8 @@ if __name__ == "__main__":
             output_file.write(word + "\n")
     
     print(f"Lista ordenada de palabras escrita en el archivo '{output_filename}'.")
+# Llamada a la función para contar palabras
+    word_count = count_words(sorted_word_list)
+    print(f"El número de palabras en la lista ordenada es: {word_count}")
+
 

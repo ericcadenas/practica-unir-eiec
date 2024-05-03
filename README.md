@@ -16,3 +16,7 @@ python3 main.py <filename> <dup>
 
 Este es el primer cambio que se esta realizando con el Usuario 1 (giovannicadenas), Trabajo Grupal de Github
 
+# Este es un cambio del Usuario 2 (waldircadenas)
+
+Este es el segundo cambio que se esta realizando con el Usuario 1 (waldircadenas), Trabajo Grupal de Github
+
