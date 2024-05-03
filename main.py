@@ -47,3 +47,13 @@ if __name__ == "__main__":
         word_list = remove_duplicates_from_list(word_list)
 
     print(sort_list(word_list))
+
+
+# Nuevo código para escribir la lista ordenada en un nuevo archivo
+    output_filename = "sorted_words.txt"
+    with open(output_filename, "w") as output_file:
+        for word in sorted_word_list:
+            output_file.write(word + "\n")
+    
+    print(f"Lista ordenada de palabras escrita en el archivo '{output_filename}'.")
+
