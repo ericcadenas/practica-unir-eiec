@@ -47,3 +47,10 @@ if __name__ == "__main__":
         word_list = remove_duplicates_from_list(word_list)
 
     print(sort_list(word_list))
+
+
+# Llamada a la función para contar palabras
+    word_count = count_words(sorted_word_list)
+    print(f"El número de palabras en la lista ordenada es: {word_count}")
+
+
