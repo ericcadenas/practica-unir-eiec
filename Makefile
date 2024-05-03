@@ -1,4 +1,4 @@
-.PHONY: all $(MAKECMDGOALS)
+s.PHONY: all $(MAKECMDGOALS)
 
 run:
 	docker run --rm --volume `pwd`:/opt/app --env PYTHON_PATH=/opt/app -w /opt/app python:3.6-slim python3 main.py words.txt yes
@@ -6,4 +6,6 @@ run:
 
 clean:
     rm -f generated_file.txt
+test:
+    docker run --rm --volume `pwd`:/opt/app --env PYTHON_PATH=/opt/app -w /opt/app python:3.6-slim python3 test.py
 
